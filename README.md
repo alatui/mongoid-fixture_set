@@ -11,7 +11,7 @@ If you'd like to contribute, but pull requests are welcome!
 ## Install
 
 ```ruby
-gem 'mongoid-fixture_set'
+gem 'mongoid-fixture_set', :github => 'alatui/mongoid-fixture_set', :branch => 'master'
 ```
 
 ## How to use
@@ -19,6 +19,8 @@ gem 'mongoid-fixture_set'
 In your tests, add:
 
 ```ruby
+require 'mongoid-fixture_set'
+
 class ActiveSupport::TestCase
   include Mongoid::FixtureSet::TestHelper
   self.fixture_path = "#{Rails.root}/test/fixtures"
