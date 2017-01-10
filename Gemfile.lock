@@ -3,7 +3,7 @@ PATH
   specs:
     mongoid-fixture_set (1.5.0)
       activesupport (~> 4.0)
-      mongoid (~> 6.0.0)
+      mongoid (>= 4.0)
 
 GEM
   remote: https://rubygems.org/
